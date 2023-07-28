@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/piotrekprogramista/react-bmi-calculator/static/css/main.04e004fb.css",
+    "main.js": "/piotrekprogramista/react-bmi-calculator/static/js/main.ecdedf70.js",
+    "static/js/787.7779eadb.chunk.js": "/piotrekprogramista/react-bmi-calculator/static/js/787.7779eadb.chunk.js",
+    "index.html": "/piotrekprogramista/react-bmi-calculator/index.html",
+    "main.04e004fb.css.map": "/piotrekprogramista/react-bmi-calculator/static/css/main.04e004fb.css.map",
+    "main.ecdedf70.js.map": "/piotrekprogramista/react-bmi-calculator/static/js/main.ecdedf70.js.map",
+    "787.7779eadb.chunk.js.map": "/piotrekprogramista/react-bmi-calculator/static/js/787.7779eadb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04e004fb.css",
+    "static/js/main.ecdedf70.js"
+  ]
+}
