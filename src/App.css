@@ -1,0 +1,108 @@
+.App {
+  font-family: 'Rubik', sans-serif;
+  background: linear-gradient(37deg, #4f28bb, #5c459b, #331b74, #a188e4, #6954a1);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: tlo 20s ease infinite;
+  -moz-animation: tlo 20s ease infinite;
+  -o-animation: tlo 20s ease infinite;
+  animation: tlo 20s ease infinite;
+    position:fixed;
+    width:100%;
+    height:100%;
+    text-align: center;
+    justify-content: center;
+  display: flex;
+}
+#content{
+  
+  text-align: center;
+ margin-top: 10%;
+  width:300px;
+  height:600px;
+  background-color: rgba(69, 42, 165, 0.425);
+  display: flex;
+  color:white;
+  border-radius: 20px ;
+  flex-direction: column;
+  align-items: center;
+  
+  gap:15px;
+}
+#title {
+  
+  width:100%;
+  height:auto;
+  margin-top:20px;
+  font-size:30px;
+}
+
+form{
+ width:100%; 
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  align-items: center;
+}
+#age,#height,#weight{
+  width:50px;
+  justify-content: center;
+  width:60%; 
+  
+}
+#butt {
+  align-items: center;
+  background-image: linear-gradient(144deg, #4f28bb, #5c459b, #6f1f8f);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;;
+}
+#butt:active,
+#butt:hover {
+  outline: 0;
+}
+
+#write{
+  font-size:30px;
+}
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+@-webkit-keyframes tlo {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+@-moz-keyframes tlo {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+@-o-keyframes tlo {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+@keyframes tlo {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+}
